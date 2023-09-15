@@ -79,9 +79,10 @@ nav .sign{
     border: 0;
     outline: 0;
     background: black;
-    opacity: 0.7;
     border: 1px solid #fff;
     padding: 15px 20px;
+    opacity: 0.5;
+    color: #fff;
     width: 420px;
     border-radius: 5px;
 }
@@ -291,4 +292,101 @@ form p{
 }
 #Copyright:hover {
     color: #939393;
+}
+
+@media only screen and (max-width: 360px) {
+    body{
+        background: #ff0000;
+    }
+    nav .logo{
+        width: 90px;
+        filter: contrast(150%);
+        cursor: pointer;
+        margin-left: -20px;
+    }
+    nav div{
+        display: flex;
+        margin-left: 40px;
+    }
+    button{
+        padding: 5px 8px;
+        cursor: pointer;
+        border-radius: 3px;
+        outline: none;
+        border: 0;
+        background: #ff0000;
+        font-size: 12px;
+        font-weight: 200;
+        color: #fff;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 100px;
+        
+    }
+    .header-content h1{
+        text-align: center;
+        padding: 20px;
+        margin-left: 28px;
+        line-height: 30px;
+        width: 360px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .header-content p{
+        padding: 0 50px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .email{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .email input{
+        width: 300px;
+    }
+    .email button{
+        margin-top: 25px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .row .text-col{
+        width: 120%;
+    }
+    .row .text-col h1{
+        font-size: 30px;
+    }
+    .row .text-col p{
+        font-size: 20px;
+    }
+    .box{
+        width: 100%;
+        margin-left: -10px;
+    }
+    .faq{
+        align-items: center;
+    }
+    .faq h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .faq .accordian{
+        margin-left: 5px;
+        width: 80%;
+    }
+    .accordian li label{
+        font-size: 20px;
+    }
+    #Copyright{
+        margin-top: 5px;
+        color: red;
+        font-size: 15px;
+    }
 }
