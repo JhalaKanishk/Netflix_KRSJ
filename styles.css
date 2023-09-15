@@ -296,7 +296,18 @@ form p{
 
 @media only screen and (max-width: 360px) {
     body{
-        background: #ff0000;
+        background: #000;
+        
+    }
+    .header{
+        width: 170%;
+    }
+    nav{
+        width: 100%;
+    }
+    .features{
+        text-align: center;
+        width: 170%;
     }
     nav .logo{
         width: 90px;
@@ -323,23 +334,26 @@ form p{
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 20px 100px;
+        margin-top: 5%;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 50px;
         
     }
     .header-content h1{
         text-align: center;
-        padding: 20px;
-        margin-left: 28px;
-        line-height: 30px;
-        width: 360px;
-        font-size: 30px;
+        padding: 20px 0;
+        line-height: 40px;
+        width: 150%;
+        font-size: 35px;
         font-weight: 700;
+        margin-left: -20%;
     }
     
     .header-content p{
-        padding: 0 50px;
         line-height: 18px;
-        font-size: 18px;
+        font-size: 20px;
+        line-height: 40px;
     }
     .email{
         align-items: center;
@@ -372,14 +386,23 @@ form p{
     }
     .faq{
         align-items: center;
+        width: 170%;
     }
     .faq h1{
         font-size: 30px;
         font-weight: 600;
     }
     .faq .accordian{
-        margin-left: 5px;
+        margin-left: 12px;
         width: 80%;
+    }
+    .footer{
+        margin-top: 30%;
+        width: 170%;
+    }
+    .columns{
+        margin-top: 2%;
+        margin-right: 10%;
     }
     .accordian li label{
         font-size: 20px;
